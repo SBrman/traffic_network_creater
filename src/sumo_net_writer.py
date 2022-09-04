@@ -173,7 +173,7 @@ class SumoNetworkBuilder:
 if __name__ == "__main__":
     # demand_scale = 0.20
     net_name = f'austin_3_dua'
-    G = Graph(r"F:\LimitedDeployment\code\data", name=net_name)
+    G = Graph(r"..\data", name=net_name)
     sumo_net_builder = SumoNetworkBuilder(G, scale=3e5, folder_name=net_name)
     # sumo_net_builder.write_net_file()
     # sumo_net_builder.generate_routes()
